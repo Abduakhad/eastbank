@@ -1,0 +1,455 @@
+/* FONTS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&display=swap');
+
+
+
+
+
+/* ROOT */
+:root {
+    /* colors */
+    --colorPrimary:  #9597A5;
+    --colorSecondary: #ccc;
+    /* backgrounds */
+    --backgroundPrimary: #ffffff;
+    /* --background */
+    --backgroundSecondary:#2D314D ;
+    /* btn colors */
+    --btnColor: #33D35E, #2AB6D9;
+    --btnHover: #fff;
+    --btnDisabled: #fff;
+    /* fonts */
+    --fontFamily: Arial, sans-serif;
+    --fontWeight: 400;
+    --fontSize: 12px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontFamily);
+    font-weight: var(--fontWeight);
+    font-size: var(--fontSize);
+    background-color: var(--backgroundPrimary);
+    color: var(--colorPrimary);
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #FAFAFA;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ol,
+ul,
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/******************************* Header style start**************************** */
+
+
+.site-header__wrapper{
+    width: auto;
+    height: 80px;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+.site-header__wrapper{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.site-header__start{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.site-header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.site-header__logo{
+    margin-right: 251px;
+}
+
+.site-item__links{
+    margin-right: 30px;
+    color: #9597A5;
+    font-family: PublicSans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.108px;
+}
+.site-nav-link__btn{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding: 10px 36px;
+    margin-left: 229px;
+    align-items: center;
+    padding: 8px 36px;
+    color: white;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+}
+
+/* ************* Header style end ********************** */
+
+
+
+
+
+
+/* *********************Main style start***************************** */
+
+/* //////////////////////////Hero style start/////////////////// */
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.hero-wrapper__start{
+    margin-right:100px;
+    width: 447px;
+    height: 316px;
+    flex-shrink: 0;
+}
+
+.site-hero__title{
+    
+    color: #2D314D;
+    font-family: Public Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 64px; 
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+}
+.site-hero__desc{
+    color: #9597A5;
+    font-family: PublicSans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.281px;
+    margin-bottom: 36px;
+}
+.site-hero-start__btn{
+    padding: 10px 36px;
+    align-items: center;
+    color: white;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+}
+
+/* *********************************Hero style end************************ */
+
+/* *----------------Why choose easybank style start------------------------------- */
+
+.site-why{
+    width: auto 1440px;
+    height: 676px;
+    flex-shrink: 0;
+    background: #F4F5F7;
+}
+
+.site-why__subtitle{
+    padding-top: 96px;
+    margin-bottom: 16px;
+    color: #2D314D;
+    font-family: Public Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 64px; 
+    letter-spacing: -0.714px;
+}
+
+.site-why__title{
+    color: #9597A5;
+    font-family: PublicSans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.281px;
+    margin-bottom: 72px;
+}
+
+
+
+
+
+
+/* ////////////////////////card style start////////////////////////*/
+.site-why__card{
+    
+    width: auto;
+    height:  auto;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.site-card__title{
+    margin-top: 40px;
+    margin-bottom: 26px;
+    color: #2D314D;
+    font-family: Public Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 28px; 
+    letter-spacing: -0.429px;
+}
+
+.site-why__desc{
+    width: 255px;
+    height: 112px;
+    flex-shrink: 0;
+    color: #9597A5;
+    font-family: PublicSans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: -0.25px;
+}
+/* card style end */
+
+
+
+/* *----------------Why choose easybank style end------------------------------- */
+
+
+
+/* Latest Articles style start */
+.site-latest{
+    width: auto 1440px;
+    height:  auto;
+    background-color: #FAFAFA;
+    margin-bottom: 40px;
+}
+
+
+.site-latest__title{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #2D314D;
+    font-family: Public Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 64px; 
+    letter-spacing: -0.714px;
+}
+
+
+.site-latest__end{
+    
+    width: 255px;
+    height: 395px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.site-latest__img{
+    margin-right: 30px;
+}
+
+.site-latest__span{
+    margin-top: 25px;
+    margin-left: 24px;
+    margin-right: 146px;
+    margin-bottom: 8px;
+    
+    color: #9597A5;
+    font-family: PublicSans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: -0.156px;
+}
+
+.site-latest__subtitle{
+    color: #2D314D;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; 
+    letter-spacing: -0.286px;
+}
+
+.site-latest__subtitle{
+    margin-left: 24px;
+    margin-bottom: 8px;
+    width: auto;
+    height: 40px;
+}
+.site-latest-desc{
+    margin-left: 24px;
+    margin-bottom: 24px;
+    width: 207px;
+    height: 40px;
+    color: #9597A5;
+    font-family: PublicSans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: -0.203px;
+}
+/* Latest Articles style end */
+
+
+/* *********************Main style end **************************** */
+ 
+
+
+.site-footer{
+    width:  auto 1440px;
+    height: 191px;
+    flex-shrink: 0;
+    background: #2D314D;
+}
+
+.site-footer__wrapper{
+    
+    
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.site-footer-icon{
+    margin-bottom: 55px;
+}
+.social__media{
+    width: 154px;
+    height: 20px;
+    flex-shrink: 0;
+
+    
+}
+
+.site-footer__start{
+   margin: 0;
+   padding: 0;
+    margin-right: 246px;
+}
+
+.site-footer-center__item{
+    display: flex;
+}
+.site-footer-list__left{
+
+    width: 160px;
+    
+}
+
+
+.site-footer-list__right{
+   
+    margin-right: 255px;
+}
+
+.site-footer__link{
+    color: #FFF;
+    font-family: PublicSans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: -0.234px;
+    margin-bottom: 8px;
+}
+
+
+
+.site-footer__btn{
+    margin-left: 27px;
+    width: 163px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    opacity: 0.4;
+    border-radius: 22px;
+    background-color:
+    linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    margin-bottom: 24px;
+}
+.site-footer-btn__desc{
+    width: auto;
+    color: #FFF;
+    text-align: right;
+    font-family: PublicSans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: -0.234px;
+}
+
+
+
+/* footer style end */
